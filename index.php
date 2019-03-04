@@ -399,19 +399,22 @@
   </div>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="http://localhost:8080/wp-content/themes/rahma-theme/vendor/jquery/jquery.min.js"></script>
+  <script src="http://localhost:8080/wp-content/themes/rahma-theme/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="http://localhost:8080/wp-content/themes/rahma-theme/vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="http://localhost:8080/wp-content/themes/rahma-theme/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
   <!-- Contact Form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
+  <script src="http://localhost:8080/wp-content/themes/rahma-theme/js/jqBootstrapValidation.js"></script>
+  <script src="http://localhost:8080/wp-content/themes/rahma-theme/js/contact_me.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/freelancer.min.js"></script>
+  <script src="http://localhost:8080/wp-content/themes/rahma-theme/js/freelancer.min.js"></script>
+
+
+  
 
 </body>
 
