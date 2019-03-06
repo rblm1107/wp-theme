@@ -61,24 +61,20 @@
 
   <!-- Portfolio Modals -->
 
- <?php
- get_template_part('templates/portfolio','modal');
- ?>
+  <?php
+  get_template_part('templates/portfolio','modal');
+  wp_footer();
+  ?>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="http://localhost/premier-theme/<?php echo get_template_directory_uri(); ?>/vendor/jquery/jquery.min.js"></script>
-  <script src="http://localhost/premier-theme/<?php echo get_template_directory_uri(); ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap core JavaScript 2scrp-->
+ 
 
-  <!-- Plugin JavaScript -->
-  <script src="http://localhost/premier-theme/<?php echo get_template_directory_uri(); ?>/vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="http://localhost/premier-theme/<?php echo get_template_directory_uri(); ?>/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <!-- Plugin JavaScript 2scripts -->
+ 
 
-  <!-- Contact Form JavaScript -->
-  <script src="http://localhost/premier-theme/<?php echo get_template_directory_uri(); ?>/js/jqBootstrapValidation.js"></script>
-  <script src="http://localhost/premier-theme/<?php echo get_template_directory_uri(); ?>/js/contact_me.js"></script>
+  <!-- Contact Form JavaScript 2scripts-->
 
-  <!-- Custom scripts for this template -->
-  <script src="http://localhost/premier-theme/<?php echo get_template_directory_uri(); ?>/js/freelancer.min.js"></script>
+  <!-- Custom scripts for this template js freelancer -->
 
 
 </body>
