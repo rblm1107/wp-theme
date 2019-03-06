@@ -61,9 +61,21 @@ wp_enqueue_script('contact_me', get_template_directory_uri().'js/contact_me.min.
 wp_enqueue_script('jq-bootstrap_validator', get_template_directory_uri().'js/jqBootstrapValidation.min.js',['jquery-rahma'],'',true);
 
 
-// sur la doc cette ecriture est facultative cad on peut mettre que comme suit:
+// sur la doc cette ecriture est facultative???????????????????????????????? cad on peut mettre que comme suit?????
 //wp_enqueue_script('freelancer', get_template_directory_uri().'le chemin');
 
 }
+add_action('after_setup_theme','addMenu');
 
+function addMenu(){
+  /*par location # menu dans la meme page comme notre exp 
+  register_nav_menus( array $locations = array() )   
+  */
+  register_nav_menus(['menu-principal' => 'primary menu in the header of the page']);
+  register_nav_menus(['menu-footer' => 'secondary menu in footer of page']);
+  // attetion ici on cree l'emplacement et pas le menu en soit register_nav_menus(['#contact']);
+}
+/*voir aussi pour page */
+//https://developer.wordpress.org/reference/functions/add_menu_page/
+//pour page    add_menu_page( string $page_title, string $menu_title, string $capability, string $menu_slug, callable $function = '', string $icon_url = '', int $position = null )
 ?>

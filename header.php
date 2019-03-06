@@ -46,6 +46,15 @@
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
           </li>
         </ul>
+        <?php 
+        //https://developer.wordpress.org/reference/functions/wp_nav_menu/
+          wp_nav_menu([
+            'menu' => 'menu-principal',
+            'menu-class '=> 'navbar-nav ml-auto',
+            'container'=> "",
+            'theme-location' => 'menu-principal',
+          ]);
+        ?>
       </div>
     </div>
   </nav>
