@@ -83,5 +83,6 @@ add_filter('nav_menu_link_attributes','ajout_filtre',10,1);
 function ajout_filtre($attribut){
   $attribut['class'] = 'nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger';
   return $attribut;
-}  
+} 
+
 ?>
