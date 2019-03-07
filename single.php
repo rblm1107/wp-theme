@@ -13,7 +13,8 @@ get_header();
 </div>
 <?php endwhile ; ?>
 
-
+<!-- featured image se met pas par default il faut specifier 'thumbnails' pas comme 'custom-backgroung'-->
+<div class="thumbnails-image"><?php the_post_thumbnail('large') ?></div>
 
 <!-- importer footer -->
 <?php 
