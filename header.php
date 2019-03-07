@@ -10,7 +10,7 @@
 
   <title>Freelancer - Start Bootstrap Theme</title>
 
-  <!-- Bootstrap core CSS -->
+  <!-- Bootstrap core CSS --> 
 
   <!-- Custom fonts for this template -->
  

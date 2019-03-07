@@ -62,8 +62,11 @@
   <!-- Portfolio Modals -->
 
   <?php
+
   get_template_part('templates/portfolio','modal');
+  //ceci call section ..modal
   wp_footer();
+  // ceci pour les scripts
   ?>
 
   <!-- Bootstrap core JavaScript 2scrp-->

@@ -4,10 +4,7 @@ get_header();
 ?>
 <!-- single div -->
 <div class='single-post-container'>
-    <?php while(have_post()){
-        the_post();
-     ?>
-     }
+    <?php while(have_post()) : the_post(); ?>
     <h2><?php the_title(); ?></h2>
 
     <div class="post-content">

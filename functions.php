@@ -71,8 +71,8 @@ function addMenu(){
   /*par location # menu dans la meme page comme notre exp 
   register_nav_menus( array $locations = array() )   
   */
-  register_nav_menus(['menu-principal' => 'primary menu in the header of the page']);
-  register_nav_menus(['menu-footer' => 'secondary menu in footer of page']);
+  register_nav_menus(['menu-principal' => 'primary menu in the header of the page','menu-footer' => 'secondary menu in footer of page']);
+  // register_nav_menus(['menu-footer' => 'secondary menu in footer of page']);
   // attetion ici on cree l'emplacement et pas le menu en soit register_nav_menus(['#contact']);
 }
 /*voir aussi pour page */
@@ -84,5 +84,11 @@ function ajout_filtre($attribut){
   $attribut['class'] = 'nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger';
   return $attribut;
 } 
-
+// function tester(){
+//   add_theme_support('post-thumbnails');
+//   add_theme_support('custom-background');
+// }
+// add_action('init','tester');
+add_theme_support('post-thumbnails');
+add_theme_support('custom-background');
 ?>
