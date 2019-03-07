@@ -78,4 +78,10 @@ function addMenu(){
 /*voir aussi pour page */
 //https://developer.wordpress.org/reference/functions/add_menu_page/
 //pour page    add_menu_page( string $page_title, string $menu_title, string $capability, string $menu_slug, callable $function = '', string $icon_url = '', int $position = null )
+
+add_filter('nav_menu_link_attributes','ajout_filtre',10,1);
+function ajout_filtre($attribut){
+  $attribut['class'] = 'nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger';
+  return $attribut;
+}  
 ?>
